@@ -10,6 +10,8 @@ function showTime() {
     if( limit >= 0 ){
         gameTimer.textContent= `00:0${limit}`;
         limit-=1;
+    } else {
+        popUp.classList.remove('pop-up--hide');
     }
 }
 setInterval(showTime, 1000);
