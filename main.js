@@ -51,7 +51,7 @@ function createImgCarrots() {
     let randNum_W = Math.round(Math.random() * availWidht);
 
     const carrots = document.createElement('img');
-    carrots.setAttribute('src','/img/carrot.png');
+    carrots.setAttribute('src','img/carrot.png');
     gameField.appendChild(carrots);
     carrots.style.top = randNum_H + "px";
     carrots.style.left = randNum_W + "px";
