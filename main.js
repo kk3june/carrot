@@ -5,7 +5,6 @@ const refresh = document.querySelector('.pop-up__refresh');
 let limit = 9;
 
 // GameTimer function
-
 function showTime() {
     if( limit >= 0 ){
         gameTimer.textContent= `00:0${limit}`;
@@ -29,7 +28,7 @@ function createImgBugs() {
     let randNum_W = Math.round(Math.random() * availWidht);
 
     const bugs = document.createElement('img');
-    bugs.setAttribute('src','/img/bug.png');
+    bugs.setAttribute('src','img/bug.png');
     bugs.setAttribute('class','bug');
     gameField.appendChild(bugs);
     bugs.style.top = randNum_H + "px";
