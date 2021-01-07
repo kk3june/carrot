@@ -1,3 +1,8 @@
+
+
+
+/* my first code
+****************************************************************************************
 const gameTimer = document.querySelector('.game__timer');
 const gameField = document.querySelector('.game__field');
 const popUp = document.querySelector('.pop-up');
@@ -81,3 +86,7 @@ createImgBugs();
 createImgCarrots();
 createImgCarrots();
 createImgCarrots();
+
+
+****************************************************************************************
+*/
