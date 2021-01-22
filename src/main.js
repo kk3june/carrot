@@ -25,17 +25,17 @@ const gameField = new Field(CARROT_COUNT, BUG_COUNT);
 gameField.setClickListner(onItemClick);
 
 
-function onItemClick(event) {
+function onItemClick(item) {
     if (!started) {
         return;
     }
-    if (item = 'carrot') {
+    if (item === 'carrot') {
         score++;
         updateScoreBoard();
         if(score === CARROT_COUNT) {
             finishGame(true);
         }
-    } else if (item ='bug'){
+    } else if (item ==='bug'){
         finishGame(false);
     }
 }
